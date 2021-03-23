@@ -1,0 +1,23 @@
+@media only screen and (max-width: 60rem) {
+  body {
+    background-color: rgb(250, 191, 191);
+  }
+}
+
+@media only screen and (max-width: 48.75rem) {
+  body {
+    background-color: rgb(247, 247, 201);
+  }
+}
+
+@media only screen and (max-width: 30rem) {
+  body {
+    background-color: rgb(182, 238, 182);
+  }
+}
+
+@media only screen and (max-width: 25rem) {
+  body {
+    background-color: rgb(243, 199, 243);
+  }
+}
