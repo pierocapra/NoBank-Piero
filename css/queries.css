@@ -1,7 +1,7 @@
 @media only screen and (max-width: 60em) {
-  body {
+  /* body {
     background-color: rgb(250, 191, 191);
-  }
+  } */
 
   html {
     font-size: 54%;
@@ -23,11 +23,50 @@
 }
 
 @media only screen and (max-width: 47em) {
-  body {
+  /* body {
     background-color: rgb(247, 247, 201);
-  }
+  } */
+
   html {
     font-size: 50%;
+  }
+  .sidenav {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(124, 123, 123);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 3rem;
+    /* font-family: "Avenir Light"; */
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #bars {
+    font-size: 6rem;
+    display: block;
+
+    float: right;
   }
 
   .section {
@@ -37,6 +76,11 @@
   .nav__links {
     display: none;
   }
+
+  .nav.sticky {
+    height: 7rem;
+  }
+
   .header {
     height: unset;
   }
@@ -108,9 +152,9 @@
 }
 
 @media only screen and (max-width: 28em) {
-  body {
+  /* body {
     background-color: rgb(182, 238, 182);
-  }
+  } */
 
   html {
     font-size: 48%;
@@ -151,7 +195,7 @@
   .operations__tab-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: flex-start;
   }
 
@@ -161,7 +205,6 @@
     transform: translateY(0);
   }
   .operations__tab span {
-    /* margin-right: 1rem; */
     font-weight: 600;
     display: block;
   }
@@ -191,21 +234,25 @@
   .slide {
     height: 80rem;
   }
+
+  .cookie-message {
+    padding: 0 3rem;
+  }
 }
 
 @media only screen and (max-width: 22em) {
-  body {
+  /* body {
     background-color: rgb(243, 199, 243);
-  }
+  } */
   html {
     font-size: 46%;
   }
 }
 
 @media only screen and (min-width: 85em) {
-  body {
+  /* body {
     background-color: rgb(191, 238, 250);
-  }
+  } */
 
   html {
     font-size: 70%;

@@ -43,6 +43,7 @@
     <script defer src="js/script.js"></script>
   </head>
   <body>
+   
     <header class="header">
       <nav class="nav">
         <img
@@ -70,6 +71,19 @@
             >
           </li>
         </ul>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#section--1" onclick="closeNav()">Features</a>
+          <a href="#section--2" onclick="closeNav()">Operations</a>
+          <a href="#section--3" onclick="closeNav()">Testimonials</a>
+          <a href="app.html" onclick="closeNav()">Login</a>
+          <a class="btn--show-modal" href="#" onclick="closeNav()">Open Now!</a>
+        </div>
+        <div>
+          <span id="bars" onclick="openNav()">&#9776; </span>
+        </div>
       </nav>
 
       <div class="header__title">
