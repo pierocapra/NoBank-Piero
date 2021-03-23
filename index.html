@@ -43,7 +43,6 @@
     <script defer src="js/script.js"></script>
   </head>
   <body>
-   
     <header class="header">
       <nav class="nav">
         <img
@@ -52,6 +51,9 @@
           class="nav__logo"
           id="logo"
         />
+        <div>
+          <span id="bars" onclick="openNav()">&#9776; </span>
+        </div>
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
@@ -80,9 +82,6 @@
           <a href="#section--3" onclick="closeNav()">Testimonials</a>
           <a href="app.html" onclick="closeNav()">Login</a>
           <a class="btn--show-modal" href="#" onclick="closeNav()">Open Now!</a>
-        </div>
-        <div>
-          <span id="bars" onclick="openNav()">&#9776; </span>
         </div>
       </nav>
 
