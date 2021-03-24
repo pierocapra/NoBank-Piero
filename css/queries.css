@@ -8,7 +8,7 @@
   }
 
   .section {
-    padding: 12rem 3rem;
+    padding: 17rem 3rem 8rem 3rem;
   }
 
   h1 {
@@ -71,7 +71,7 @@
   }
 
   .section {
-    padding: 10rem 3rem;
+    padding: 17rem 3rem 8rem 3rem;
   }
 
   .nav__links {
@@ -189,9 +189,9 @@
     font-size: 2.2rem;
   }
 
-  .section {
+  /* .section {
     padding: 8rem 3rem;
-  }
+  } */
 
   .operations__tab-container {
     display: flex;

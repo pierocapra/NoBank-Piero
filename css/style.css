@@ -46,7 +46,7 @@ body {
 }
 
 .section {
-  padding: 15rem 3rem;
+  padding: 17.5rem 3rem 12rem 3rem;
   border-top: 1px solid #ddd;
 
   transition: transform 1s, opacity 1s;
@@ -125,6 +125,8 @@ img {
 }
 
 /* NAVIGATION */
+
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -670,6 +672,10 @@ h4 {
   cursor: pointer;
   border: none;
   background: none;
+}
+
+.modal p {
+  margin-top: 2rem;
 }
 
 .hidden {

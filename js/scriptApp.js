@@ -3,10 +3,13 @@
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // BANKIST APP
+alert(
+  "The users data are the following: user: 'aa' and PIN: '1111' or user: 'bb' and PIN '2222'. Use them to login and move money from and to the accounts"
+);
 
 // Accounts DATA
 const account1 = {
-  owner: "Jonas Schmedtmann",
+  owner: "Alice Abbott",
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -26,7 +29,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: "Jessica Davis",
+  owner: "Bob Bern",
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
@@ -205,9 +208,7 @@ btnLogin.addEventListener("click", function (e) {
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
     // Display UI and message
-    labelWelcome.textContent = `Welcome back, ${
-      currentAccount.owner.split(" ")[0]
-    }`;
+    labelWelcome.textContent = `Welcome, ${currentAccount.owner}`;
     containerApp.style.opacity = 100;
 
     // Clear input fields

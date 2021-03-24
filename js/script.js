@@ -57,7 +57,10 @@ btnScrollTo.addEventListener("click", function () {
 
 //SMOOTH SCROLL INTO VIEW
 document.querySelector(".nav__links").addEventListener("click", function (e) {
-  if (!e.target.classList.contains("nav__link--btn")) {
+  if (
+    !e.target.classList.contains("nav__link--btn") &&
+    !e.target.classList.contains("nav__link--btn2")
+  ) {
     e.preventDefault();
 
     //Matching Strategy
