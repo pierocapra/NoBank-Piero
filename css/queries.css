@@ -65,9 +65,15 @@
 
   #bars {
     font-size: 6rem;
+    position: fixed;
+    top: -1rem;
+    right: 2rem;
     display: block;
-
     float: right;
+    /* color: #548fec; */
+    /* color: var(--color-primary-darker); */
+    /* color: #37383d; */
+    color: rgb(124, 123, 123);
   }
 
   .section {
@@ -79,7 +85,11 @@
   }
 
   .nav.sticky {
-    height: 7rem;
+    background-color: transparent;
+  }
+
+  .nav.sticky .nav__logo {
+    display: none;
   }
 
   .header {
