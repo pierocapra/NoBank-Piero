@@ -70,14 +70,12 @@
     right: 2rem;
     display: block;
     float: right;
-    /* color: #548fec; */
-    /* color: var(--color-primary-darker); */
-    /* color: #37383d; */
+
     color: rgb(124, 123, 123);
   }
 
   .section {
-    padding: 17rem 3rem 8rem 3rem;
+    padding: 10rem 3rem 10rem 3rem;
   }
 
   .nav__links {
