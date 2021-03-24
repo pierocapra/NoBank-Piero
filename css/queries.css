@@ -236,6 +236,21 @@
     height: 80rem;
   }
 
+  .modal {
+    padding: 3rem 4rem; /**/
+  }
+
+  .modal__header {
+    font-size: 2.75rem; /**/
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+  }
+
+  .btn--close-modal {
+    top: 3rem;
+    right: 4rem;
+  }
+
   .cookie-message {
     padding: 0 3rem;
   }
